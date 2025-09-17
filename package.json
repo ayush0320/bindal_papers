@@ -1,0 +1,30 @@
+{
+  "name": "bindal-papers",
+  "version": "1.0.0",
+  "description": "MERN application for Bindal Papers marketing website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "client:dev": "cd client && npm run dev",
+    "server:dev": "cd server && npm run dev",
+    "client:build": "cd client && npm run build",
+    "server:build": "cd server && npm run build",
+    "build": "npm run client:build && npm run server:build",
+    "start": "cd server && npm start",
+    "seed": "cd server && npm run seed",
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "node",
+    "express",
+    "mongodb",
+    "bindal-papers"
+  ],
+  "author": "Ayush Gautam",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
