@@ -1,4 +1,4 @@
-# HooBank - Business Website Template
+# Bindals Paper Mills Limited - Prototype Design
 
 Modern responsive business website design made with React and Tailwind CSS.
 
