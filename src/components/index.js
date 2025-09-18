@@ -1,5 +1,6 @@
 import Billing from './Billing'
 import Business from './Business'
+import BusinessAlt from './BusinessAlt'
 import CardDeal from './CardDeal'
 import Clients from './Clients'
 import CTA from './CTA'
@@ -13,6 +14,7 @@ import Testimonials from './Testimonials'
 export {
     Billing,
     Business,
+    BusinessAlt,
     CardDeal,
     Clients,
     CTA,

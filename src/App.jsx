@@ -2,6 +2,7 @@ import React from 'react'
 import {
   Billing,
   Business,
+  BusinessAlt,
   CardDeal,
   Clients,
   CTA,
@@ -11,6 +12,7 @@ import {
   Stats,
   Testimonials
 } from './components'
+import WaterSavings from "./components/calculators/WaterSavings";
 import styles from './style'
 
 const App = () => {
@@ -26,12 +28,15 @@ const App = () => {
           <Hero />
         </div>
       </div>
+      <div className="max-w-6xl mx-auto">
+        <h1 className="text-3xl font-semibold mb-6">Bindals Sustainability</h1>
+        <WaterSavings />
+      </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <Business />
-          {/* Duplicate of the section, reversed layout */}
-          <Business reverse />
+          <BusinessAlt />
           <Billing />
           <CardDeal />
           <Testimonials />

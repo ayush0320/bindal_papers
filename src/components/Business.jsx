@@ -33,18 +33,18 @@ const Business = ({ reverse = false }) => {
             ))}
           </div>
           <div className={layout.sectionInfo}>
-            <h2 className={styles.heading2}>Quality Products & Sustainable Solutions <br className='sm:block hidden' /></h2>
+            <h2 className={styles.heading2}>About Company<br className='sm:block hidden' /></h2>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-              At Bindals Papers Mills Limited, we are a leading manufacturer and supplier of high-quality Paper & Sugar products, with a commitment to sustainability and innovation. Founded with a vision to promote environmental responsibility while delivering superior Paper & Sugar solutions, we have steadily grown to become one of the most trusted names in the Paper & Sugar industry.
+              At Bindals Papers Mills Limited, we take pride in being a leading manufacturer and supplier of premium quality Paper and Sugar products. In 2023, Bindals expanded its operations into the sugar industry with the launch of Bindals Sugar. Driven by a vision for a greener future, our manufacturing processes are designed to minimize environmental impact while maximizing quality and efficiency. We utilize advanced technologies and eco-friendly practices to produce high-grade paper products that serve industries across publishing, packaging, and printing — all while conserving natural resources.
             </p>
           </div>
         </>
       ) : (
         <>
           <div className={layout.sectionInfo}>
-            <h2 className={styles.heading2}>Quality Products & Sustainable Solutions <br className='sm:block hidden' /></h2>
+            <h2 className={styles.heading2}>About Company<br className='sm:block hidden' /></h2>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-              At Bindals Papers Mills Limited, we are a leading manufacturer and supplier of high-quality Paper & Sugar products, with a commitment to sustainability and innovation. Founded with a vision to promote environmental responsibility while delivering superior Paper & Sugar solutions, we have steadily grown to become one of the most trusted names in the Paper & Sugar industry.
+              At Bindals Papers Mills Limited, we take pride in being a leading manufacturer and supplier of premium quality Paper and Sugar products. In 2023, Bindals expanded its operations into the sugar industry with the launch of Bindals Sugar. Driven by a vision for a greener future, our manufacturing processes are designed to minimize environmental impact while maximizing quality and efficiency. We utilize advanced technologies and eco-friendly practices to produce high-grade paper products that serve industries across publishing, packaging, and printing — all while conserving natural resources.
             </p>
           </div>
           <div className={`${layout.sectionImg} flex-col`}>

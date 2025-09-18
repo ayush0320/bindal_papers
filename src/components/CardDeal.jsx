@@ -6,12 +6,9 @@ const CardDeal = () => {
   return (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden' />in few easy steps.</h2>
+        <h2 className={styles.heading2}>Bindals ss maplitho paper<br className='sm:block hidden' /></h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Arcu tortor,
-          purus in mattis at sed integer faucibus.
-          Aliquet quis aliquet eget mauris tortor.ç
-          Aliquet ultrices ac, ametau.
+          Bindals SS Maplitho Paper is a high-quality uncoated wood-free printing paper known for its excellent surface finish, high bulk, and superior printability. Manufactured using advanced pulp processing and eco-friendly practices, it is designed to deliver consistent results across a wide range of printing and publishing applications
         </p>
       </div>
       <div className={layout.sectionImg}>

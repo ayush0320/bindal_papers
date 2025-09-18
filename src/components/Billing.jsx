@@ -15,24 +15,11 @@ const Billing = () => {
         <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient' />
       </div>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>The best choice for all your
-          business needs<br className='sm:block hidden' /></h2>
+        <h2 className={styles.heading2}>Bindals FinePrints Copier Paper<br className='sm:block hidden' /></h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Eco-friendly Paper Solutions for a Greener Tomorrow
-          Every pleasures is to welcomed pain avoided owing to the duty the obligations of business will frequently occur pleasures.
+          Bindals FinePrints Copier Paper is a high-performance multipurpose paper designed for smooth and hassle-free printing. With superior brightness, high opacity, and a smooth finish, it ensures crisp text and vibrant images in both black & white and.
         </p>
         <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
-          <img
-            src={apple}
-            alt='app-store'
-            className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer'
-          />
-
-          <img
-            src={google}
-            alt='google-play'
-            className='w-[128px] h-[42px] object-contain cursor-pointer'
-          />
         </div>
       </div>
     </section>
