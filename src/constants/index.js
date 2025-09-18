@@ -1,17 +1,17 @@
-import { 
-  people01, 
-  people02, 
-  people03, 
-  facebook, 
-  instagram, 
-  linkedin, 
-  twitter, 
-  airbnb, 
-  binance, 
-  coinbase, 
-  dropbox, 
-  send, 
-  shield, 
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
   star
 } from "../assets";
 
@@ -22,7 +22,7 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "About Us",
   },
   {
     id: "product",
@@ -38,25 +38,26 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Aug 14, 2009 Bindals Papers Mills Limited – Commencement of Production",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Bindals Papers Mills Limited officially began operations in 2009, marking the launch of high-quality Agro Based paper products into the market.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "2010-2015 Expansion and Technological Advancements",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Between 2010 and 2015, Bindals Papers invested heavily in modernizing its production facility, adding new machines and refining its processes to meet the growing demand for high-quality Agro Based paper.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "2016-2020 Focus on Sustainability and Growth",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Bindals Papers adopted ZLD technology to reduce water wastage and improve effluent treatment processes. The plant installed an RO plant with a capacity of 4.4 MLD, contributing to sustainable water usage by recycling treated effluent for reuse in the production process.",
   },
 ];
+
 
 export const feedback = [
   {
