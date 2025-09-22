@@ -2,6 +2,7 @@ import Billing from './Billing'
 import Business from './Business'
 import BusinessAlt from './BusinessAlt'
 import CardDeal from './CardDeal'
+import ChatBot from './ChatBot'
 import Clients from './Clients'
 import CTA from './CTA'
 import Feedback from './Feedback'
@@ -16,6 +17,7 @@ export {
     Business,
     BusinessAlt,
     CardDeal,
+    ChatBot,
     Clients,
     CTA,
     Feedback,

@@ -13,6 +13,7 @@ import {
   Testimonials
 } from './components'
 import WaterSavings from "./components/calculators/WaterSavings";
+import ChatBot from './components/ChatBot';
 import styles from './style'
 
 const App = () => {
@@ -45,6 +46,7 @@ const App = () => {
           <Footer />
         </div>
       </div>
+      <ChatBot />
     </div>
   )
 }
